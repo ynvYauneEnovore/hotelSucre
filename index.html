@@ -23,6 +23,16 @@
         background-image: url('img/fondo-2.png');
         background-size: cover;
       }
+
+      .banner-image-3 {
+        background-image: url('img/fondo-3.png');
+        background-size: cover;
+      }
+
+      .banner-image-4 {
+        background-image: url('img/fondo-4.png');
+        background-size: cover;
+      }
       </style>
 
 </head>
@@ -36,31 +46,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="./">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Habitaciones</a>
+          <a class="nav-link" href="./habitaciones.html">Habitaciones</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="./servicios.html">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reservas</a>
+            <a class="nav-link" href="./reservas.html">Reservas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contácto</a>
+            <a class="nav-link" href="./contactos.html">Contácto</a>
           </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Acceder
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Acceder</a></li>
-            <li><a class="dropdown-item" href="#">Registro</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Adminitrador</a></li>
-          </ul>
-        </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -78,6 +77,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <a class="nav-link text-white" href=" {{ url('login') }} ">
+                      <br><br>
                         <img src="img/logo.png" alt="admin-dev" width="350" height="340">
                     </a>
                 </div>
@@ -168,32 +168,32 @@
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="img/6.jfif" class="card-img-top" alt="...">
+              <div class="card mx-auto" style="width: 13rem;">
+                <img src="img/6.jfif" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h6 class="card-title">Seguridad</h6>
+                  <p class="card-text">Tecnologías y herramientas de seguridad.</p>
+                  <a href="#" class="btn btn-primary">Ir</a>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="img/7.jfif" class="card-img-top" alt="...">
+              <div class="card mx-auto" style="width: 13rem;">
+                <img src="img/7.jfif" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h6 class="card-title">Garantía</h6>
+                  <p class="card-text">Garantía en todas las compras.</p>
+                  <a href="#" class="btn btn-primary">Ir</a>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="img/8.jfif" class="card-img-top" alt="...">
+              <div class="card mx-auto" style="width: 13rem;">
+                <img src="img/8.jfif" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h6 class="card-title">Tansacciones</h6>
+                  <p class="card-text">Stándares más avanzados de seguridad.</p>
+                  <a href="#" class="btn btn-primary">Ir</a>
                 </div>
               </div>
             </div>
@@ -203,6 +203,152 @@
       </div>
   </div>
   <!-- Banner Image  -->
+
+    <!-- Banner Image  -->
+    <div class="banner-image-3 w-80 vh-100 d-flex justify-content-center align-items-center">
+      <div class="container text-white">
+
+        <div class="container">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Descubre el lujo y la tranquilidad en el corazón de Sucre
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  Nuestro hotel te ofrece una experiencia única, donde podrás disfrutar del confort y el relax que mereces. Contamos con habitaciones y suites de primer nivel, un spa exclusivo, una piscina panorámica y un restaurante gourmet.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Explora la historia y cultura de Sucre desde nuestro hotel
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Hospedarte en nuestro hotel significa tener acceso a lo mejor de la ciudad. Estamos ubicados en el casco histórico, cerca de los principales museos y atracciones turísticas. Además, nuestro equipo de recepción estará siempre dispuesto a brindarte información y recomendaciones para que disfrutes al máximo de tu estancia.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Vive la emoción y la adrenalina en nuestro hotel casino
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  Si eres amante del juego y la diversión, nuestro hotel es el lugar perfecto para ti. Contamos con un casino de última generación, con una amplia variedad de máquinas tragamonedas, mesas de póker y juegos de mesa. Además, nuestro bar y lounge te ofrecen una experiencia única para que disfrutes con amigos o en pareja.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  <!-- Banner Image  -->
+
+  <!-- Banner Image  -->
+  <div class="banner-image-4 w-80 vh-100 d-flex justify-content-center align-items-center">
+    <div class="container text-white">
+
+      <div class="container ">
+        <div class="container text-center">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <img src="img/logo.png" class="img-fluid"></img>
+              <button class="btn btn-light">
+                RESERVE AHORA
+              </button>
+            </div>
+            <div class="col">
+              <h5>
+                EXPLORA
+              </h5>
+
+              <ul class="nav flex-column text-center text-right">
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Hotel</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Muestra</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Restaurantes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Turismo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Ocio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Casino</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col">
+              <h5>
+                MI VIAJE
+              </h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Mis Reservaciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Mis Reconmpesas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Facturas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Mapas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Pérdido y Encontrado</a>
+                </li>
+              
+              </ul>
+            </div>
+            <div class="col">
+              <h5>
+                MANTENTE CONECTADO
+              </h5>
+              <ul class="nav flex-column">
+                <li class="nav-item link-light">
+                  <a class="nav-link link-light" href="#">Facebook</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Twiter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="#">Youtube</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br><hr><br>
+          <div class="col">
+            Hotel Sucre da la bienvenida a nuestro sitio ®. Problemas con el sitio? Llame al +591 734 671 57.
+          </div>
+          <div class="col">
+            © Copyright 2023, Todos los derechos reservados Hotel Sucre
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+<!-- Banner Image  -->
 
 
 <!-- Agregamos los archivos JS de Bootstrap -->
