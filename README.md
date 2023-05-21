@@ -1,4 +1,4 @@
-# Hotel XYZ
+# HotelSucre
 
 ![Hotel XYZ Logo](https://github.com/ynvYauneEnovore/hotelSucre/blob/main/img/1.jpeg)
 
@@ -17,9 +17,8 @@ Este repositorio contiene el código fuente y los recursos para el sitio web del
 ## Tecnologías utilizadas
 
 - HTML5, CSS3 y JavaScript para la estructura, diseño y funcionalidad del sitio web.
-- Framework XYZ para agilizar el desarrollo y la implementación.
-- Biblioteca XYZ para la manipulación de elementos interactivos y animaciones.
-- Integración con una base de datos XYZ para gestionar las reservas y el contenido dinámico.
+- Biblioteca bootstrap para la manipulación de elementos interactivos y animaciones.
+- Integración con una base de datos mariadb para gestionar las reservas y el contenido dinámico.
 
 ## Requisitos de instalación
 
@@ -35,11 +34,7 @@ Este repositorio contiene el código fuente y los recursos para el sitio web del
 3. Realiza los cambios y mejoras en tu rama.
 4. Envía un pull request para revisar tus cambios.
 
-## Licencia
-
-Este proyecto está bajo la Licencia XYZ. Puedes consultar el archivo [LICENSE](LICENSE) para más detalles.
-
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nuestro equipo. Puedes enviar un correo electrónico a info@hotelxyz.com o visitar nuestro sitio web en www.hotelxyz.com.
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nuestro equipo. Puedes enviar un correo electrónico a yovanuxf@gmail.com.
 
