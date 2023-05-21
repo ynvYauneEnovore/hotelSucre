@@ -1,6 +1,6 @@
 # Hotel XYZ
 
-![Hotel XYZ Logo](logo.png)
+![Hotel XYZ Logo](https://github.com/ynvYauneEnovore/hotelSucre/blob/main/img/1.jpeg)
 
 ## Descripción
 
